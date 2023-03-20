@@ -839,7 +839,8 @@
     position: relative;
     display: flex;
     align-items: center;
-    
+    justify-content: none;
+   
 
 
     font-size: 12px;
@@ -847,8 +848,10 @@
     letter-spacing: 0.04em;
     color: #757575;
 }
-.modal-form-input-checkbox-vishidden {
-    visibility: hidden;
+.modal-form-input-checkbox visibility-hidden {
+    
+    visibility: visible;
+    
 }
 
 
